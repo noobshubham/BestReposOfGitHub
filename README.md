@@ -7,9 +7,9 @@ Screenshot
 ------------
 
 <p float="left">
-<img src="https://github.com/noobshubham/BestReposOfGitHub/blob/master/source-preview/screenshot/detailsRepoActivity.jpg" width="320"/>
-<img src="https://github.com/noobshubham/BestReposOfGitHub/blob/master/source-preview/screenshot/mainActivity.jpg" width="320"/>
-<img src="https://github.com/noobshubham/BestReposOfGitHub/blob/master/source-preview/screenshot/retrofit.jpg" width="320"/>
+<img src="https://github.com/noobshubham/BestReposOfGitHub/blob/master/source-preview/screenshot/detailsRepoActivity.jpg" width="300"/>
+<img src="https://github.com/noobshubham/BestReposOfGitHub/blob/master/source-preview/screenshot/mainActivity.jpg" width="300"/>
+<img src="https://github.com/noobshubham/BestReposOfGitHub/blob/master/source-preview/screenshot/retrofit.jpg" width="300"/>
 </p>
 
 

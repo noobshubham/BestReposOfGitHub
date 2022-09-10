@@ -12,6 +12,7 @@ import com.noobshubham.bestreposofgithub.models.Repo
 
 class ReposAdapter(private val repoClickHandler: (Repo) -> Unit) :
     ListAdapter<Repo, RepoViewHolder>(diffCallback) {
+
     // inflate a layout and create a ViewHolder
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RepoViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_repo, parent, false)
@@ -40,8 +41,12 @@ val diffCallback = object : DiffUtil.ItemCallback<Repo>() {
 }
 
 class RepoViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+
     private val name: TextView = view.findViewById(R.id.repo_name)
+    private val ownerName: TextView = view.findViewById(R.id.ownerName)
+
     fun bind(repo: Repo) {
         name.text = repo.name
+        ownerName.text = "@${repo.owner.login}"
     }
 }
